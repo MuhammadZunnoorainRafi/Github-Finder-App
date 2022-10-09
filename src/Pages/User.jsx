@@ -43,7 +43,10 @@ function User() {
     <>
       <div className="w-full mx-auto lg:w-10/12">
         <div className="mb-4">
-          <Link to="/" className="btn btn-ghost">
+          <Link
+            to="/"
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded"
+          >
             Back To Search
           </Link>
         </div>
